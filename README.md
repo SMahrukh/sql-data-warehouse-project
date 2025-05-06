@@ -1,60 +1,49 @@
- ## 🔫 Shootings & Firearm Discharges: Data Warehouse & Analytics Project
+## 🗄 Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository!
-This project explores firearm-related incidents in Toronto using publicly available data provided by the Toronto Police Service.  
-The goal is to build a data warehouse that supports analytics on public safety trends, injury outcomes, and potential implications for emergency and trauma services.
-
----
-
-### 🎯 Project Objectives
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-### 🔧 Project Specifications
-
-- **Data Source**: Import publicly available CSV data from the Toronto Open Data Portal, specifically the “Shootings & Firearm Discharges” dataset maintained by the Toronto Police Service.
-- **Data Quality**: Cleanse and transform the data to handle null values, duplicate rows, inconsistent time formats, and standardized naming for neighbourhoods and divisions.
-- **Integration**: Develop a unified data model that includes shooting incidents, geographical neighbourhoods, time dimensions (year, month, day, hour), and injury severity levels.
-- **Scope**: Focus on the most recent data (post-2014, after the records system change) for improved consistency and data completeness.
-- **Documentation**: Provide entity-relationship (ER) diagrams and clear table descriptions to support both public health analysts and data engineering professionals.
+Welcome to the **Data Warehouse and Analytics Project** repository!  
+This project showcases a complete data warehousing and analytics workflow—from integrating raw data to generating actionable business insights.  
+Designed as a portfolio piece, it highlights industry best practices in data engineering and analytics using SQL Server.
 
 ---
 
-### 📁 Data Source
+## 🚀 Project Scope
 
-- **Dataset Title**: Shootings & Firearm Discharges  
-- **Publisher**: Toronto Police Service  
-- **License**: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)  
-- **Download Link**: [Download CSV from Open Data Toronto](https://open.toronto.ca/dataset/shootings-firearm-discharges/)  
+### 🏗️ Data Engineering: Building the Data Warehouse
+
+**Objective**  
+Design and implement a modern data warehouse that consolidates sales data from multiple systems, enabling robust analytical reporting.
+
+**Specifications**
+- **Data Sources**: Import data from two systems—ERP and CRM—provided as CSV files.
+- **Data Quality**: Clean and transform the data to resolve quality issues and ensure consistency.
+- **Data Integration**: Merge both sources into a single, analysis-ready data model optimized for SQL queries.
+- **Scope Limitation**: Use only the most recent dataset (no historical archiving).
+- **Documentation**: Provide clear entity-relationship diagrams and descriptions to support business and technical users.
 
 ---
 
-### BI & Analytics 
+## 📊 BI & Analytics: Data-Driven Insights
 
-### 📊 Objective
-Use SQL to deliver insights that support healthcare quality improvement, operational efficiency, and patient outcomes.
+**Objective**  
+Use SQL to uncover insights and trends that support strategic decision-making, focusing on:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
 
-**Key Metrics & Queries**
-- 📍 **Top Neighbourhoods by Shooting Frequency**
-- ⏰ **Peak Hours and Days for Shootings**
-- 💀 **Fatal vs Non-Fatal Incidents by Year**
-- 🧭 **Divisional Comparison of Incident Volume**
-- 🏥 **Estimated Trauma Burden by Location**
-  
-All insights were developed using SQL Server queries on the cleaned and modeled data.
+Deliver outputs through well-structured queries and data summaries that reflect key performance metrics.
 
 ---
 
 ## 🙋‍♀️ About Me
 
-Hi, I’m **Syeda Mahrukh**, currently working as an Employment Consultant with a deep passion for learning and transitioning into the field of data science.  
-This project is part of my journey to build strong data analytics and data engineering skills.  
-Special thanks to **Baraa** on YouTube for helping me grasp the foundations of building a SQL data warehouse.
+Hi, I’m **Syeda Mahrukh**—currently working as an Employment Consultant with a deep interest in learning and personal growth.  
+While I guide others on their career journeys, I’m also carving my own path into data science through practical, hands-on projects.  
+This SQL-based project is part of that journey—many thanks to **Baraa** for making complex concepts so accessible and engaging.
 
 ---
 
 ## 📚 Learning & Attribution
 
-- **Tutorial Inspiration**:  
+- **Original Dataset and Tutorial**:  
   Data with Baraa – [Watch on YouTube](https://youtu.be/9GVqKuTVANE?si=C1MivKwAOTrXIW2U)  
-- **License**: MIT – You are free to reuse and build upon this project with proper attribution.
-
+- **License**: MIT – Feel free to reuse and build upon this work with attribution.
